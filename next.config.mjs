@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    basePath: '/threejs-geojson-map',
-    images: {
-      unoptimized: true,
-    },
-  };
-  
-  export default nextConfig;
+  output: "export", // 使用静态导出
+}
+
+export default nextConfig
